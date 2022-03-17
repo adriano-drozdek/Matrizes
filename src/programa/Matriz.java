@@ -13,6 +13,12 @@ public class Matriz {
 		int n = sc.nextInt();
 		int[][] mat = new int[n][n];
 
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < 0; j++) {
+				mat[i][j] = sc.nextInt();
+			}
+		}
+		
 		sc.close();
 	}
 
